@@ -1,6 +1,6 @@
 node_modules/
+node_modules-incomplete/
 dist/
 .vite/
 *.log
 *.local
-
