@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 PACK TRACE Logo 构造与线稿说明</title>
+  <desc id="desc">展示标志概念、模块网格、几何路径、留白范围、单色与反白应用。</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#D8DBD5" stroke-width="1"/>
+    </pattern>
+    <style>
+      .title { font: 700 64px Arial, sans-serif; fill: #151713; letter-spacing: 0; }
+      .section { font: 700 28px Arial, Microsoft YaHei, sans-serif; fill: #151713; letter-spacing: 0; }
+      .label { font: 700 16px Arial, Microsoft YaHei, sans-serif; fill: #151713; letter-spacing: 0; }
+      .body { font: 400 17px Arial, Microsoft YaHei, sans-serif; fill: #565B54; letter-spacing: 0; }
+      .micro { font: 400 13px Arial, Microsoft YaHei, sans-serif; fill: #747A72; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1100" fill="#F4F5F0"/>
+  <rect x="0" y="0" width="22" height="1100" fill="#C8FF1A"/>
+
+  <text x="88" y="112" class="title">PACK TRACE</text>
+  <text x="90" y="154" class="section">拓迹 / LOGO LINEWORK 01</text>
+  <text x="90" y="194" class="body">BUILT FOR THE SHARED TRAIL · 为共同探索而造</text>
+
+  <!-- 01 master construction -->
+  <text x="90" y="270" class="label">01 / 主标志构造</text>
+  <rect x="90" y="302" width="456" height="456" fill="url(#grid)" stroke="#C9CDC5" stroke-width="2"/>
+  <rect x="138" y="350" width="360" height="360" fill="none" stroke="#AEB3AB" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Enlarged 100-unit construction, scaled 3.6x -->
+  <g transform="translate(138 350) scale(3.6)">
+    <path d="M18 78V58L44 32H78V48H52V78H82" fill="none" stroke="#151713" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+    <g fill="#C8FF1A" stroke="#151713" stroke-width="0.8">
+      <circle cx="18" cy="78" r="2.3"/>
+      <circle cx="18" cy="58" r="2.3"/>
+      <circle cx="44" cy="32" r="2.3"/>
+      <circle cx="78" cy="32" r="2.3"/>
+      <circle cx="78" cy="48" r="2.3"/>
+      <circle cx="52" cy="48" r="2.3"/>
+      <circle cx="52" cy="78" r="2.3"/>
+      <circle cx="82" cy="78" r="2.3"/>
+    </g>
+  </g>
+  <text x="90" y="790" class="micro">10 × 10 模块网格 / 8u 等宽线 / 45° 上升角 / 直角端点</text>
+
+  <!-- 02 logic -->
+  <text x="612" y="270" class="label">02 / 图形语义</text>
+  <g transform="translate(612 306)">
+    <line x1="0" y1="22" x2="42" y2="22" stroke="#C8FF1A" stroke-width="6"/>
+    <text x="60" y="28" class="section">PATH</text>
+    <text x="60" y="58" class="body">连续折线代表路线与持续探索</text>
+
+    <line x1="0" y1="112" x2="42" y2="112" stroke="#C8FF1A" stroke-width="6"/>
+    <text x="60" y="118" class="section">LINK</text>
+    <text x="60" y="148" class="body">中段扣合结构代表人与宠物的可靠连接</text>
+
+    <line x1="0" y1="202" x2="42" y2="202" stroke="#C8FF1A" stroke-width="6"/>
+    <text x="60" y="208" class="section">T</text>
+    <text x="60" y="238" class="body">负形形成 T：拓迹 / Trail / Trace</text>
+
+    <line x1="0" y1="292" x2="42" y2="292" stroke="#C8FF1A" stroke-width="6"/>
+    <text x="60" y="298" class="section">ASCENT</text>
+    <text x="60" y="328" class="body">45° 斜线表达开拓、上升与运动效率</text>
+  </g>
+
+  <!-- 03 clear space -->
+  <text x="1125" y="270" class="label">03 / 安全留白</text>
+  <rect x="1125" y="302" width="360" height="360" fill="#ECEEE9"/>
+  <rect x="1185" y="362" width="240" height="240" fill="none" stroke="#AEB3AB" stroke-width="2" stroke-dasharray="7 7"/>
+  <g transform="translate(1197 374) scale(2.16)">
+    <path d="M18 78V58L44 32H78V48H52V78H82" fill="none" stroke="#151713" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <text x="1134" y="690" class="body">四周至少保留 1× 线宽</text>
+  <text x="1134" y="716" class="micro">任何文字、边框或裁切不得进入虚线区域</text>
+
+  <!-- Bottom application band -->
+  <text x="90" y="872" class="label">04 / 单色与小尺寸测试</text>
+
+  <rect x="90" y="902" width="410" height="130" fill="#FFFFFF" stroke="#D8DBD5"/>
+  <g transform="translate(118 916) scale(1.0)">
+    <path d="M18 78V58L44 32H78V48H52V78H82" fill="none" stroke="#151713" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <text x="238" y="958" class="section">PACK TRACE</text>
+  <text x="238" y="989" class="body">拓迹 · 单色印刷</text>
+
+  <rect x="520" y="902" width="410" height="130" fill="#151713"/>
+  <g transform="translate(548 916) scale(1.0)">
+    <path d="M18 78V58L44 32H78V48H52V78H82" fill="none" stroke="#C8FF1A" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <text x="668" y="958" class="section" fill="#F4F5F0" style="fill:#F4F5F0">PACK TRACE</text>
+  <text x="668" y="989" class="body" fill="#BFC4BC" style="fill:#BFC4BC">拓迹 · 高可视反白</text>
+
+  <rect x="950" y="902" width="535" height="130" fill="#D6D9D2"/>
+  <g transform="translate(990 936) scale(.62)">
+    <path d="M18 78V58L44 32H78V48H52V78H82" fill="none" stroke="#151713" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <g transform="translate(1090 945) scale(.42)">
+    <path d="M18 78V58L44 32H78V48H52V78H82" fill="none" stroke="#151713" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <text x="1184" y="958" class="section">16 / 24 MM</text>
+  <text x="1184" y="989" class="body">织标、锁扣蚀刻、包装角标</text>
+</svg>

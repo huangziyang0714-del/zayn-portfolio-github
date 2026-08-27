@@ -1,0 +1,307 @@
+{
+  "source": "D:\\\u5bf9\u6807kyeese\\output\\psd\\covela-pet-uv-long-detail-page-v9-semantic-editable.psd",
+  "canvas": [
+    1254,
+    7460
+  ],
+  "assets": [
+    {
+      "name": "brand-wordmark-footer",
+      "source_layers": [
+        "BRAND | brand-wordmark-footer"
+      ],
+      "file": "brand-wordmark-footer.png",
+      "x": 517,
+      "y": 7198,
+      "width": 220,
+      "height": 40
+    },
+    {
+      "name": "lifestyle-background",
+      "source_layers": [
+        "PHOTO BG | Outdoor scene (inpainted)"
+      ],
+      "file": "lifestyle-background.png",
+      "x": 0,
+      "y": 5476,
+      "width": 1254,
+      "height": 900
+    },
+    {
+      "name": "lifestyle-dog-01",
+      "source_layers": [
+        "PHOTO | lifestyle-dog-01"
+      ],
+      "file": "lifestyle-dog-01.png",
+      "x": 42,
+      "y": 5754,
+      "width": 384,
+      "height": 595
+    },
+    {
+      "name": "lifestyle-dog-02",
+      "source_layers": [
+        "PHOTO | lifestyle-dog-02"
+      ],
+      "file": "lifestyle-dog-02.png",
+      "x": 402,
+      "y": 5712,
+      "width": 346,
+      "height": 626
+    },
+    {
+      "name": "lifestyle-dog-03",
+      "source_layers": [
+        "PHOTO | lifestyle-dog-03"
+      ],
+      "file": "lifestyle-dog-03.png",
+      "x": 765,
+      "y": 5806,
+      "width": 463,
+      "height": 557
+    },
+    {
+      "name": "measure-dog",
+      "source_layers": [
+        "LOGO | measure-garment-logo"
+      ],
+      "file": "measure-dog.png",
+      "x": 107,
+      "y": 4160,
+      "width": 525,
+      "height": 457
+    },
+    {
+      "name": "measure-arrow-line",
+      "source_layers": [
+        "GUIDE | Measurement arrows"
+      ],
+      "file": "measure-arrow-line.png",
+      "x": 222,
+      "y": 4293,
+      "width": 231,
+      "height": 40
+    },
+    {
+      "name": "measure-arrow-ring",
+      "source_layers": [
+        "\u56fe\u5c42 1"
+      ],
+      "file": "measure-arrow-ring.png",
+      "x": 308,
+      "y": 4307,
+      "width": 178,
+      "height": 180
+    },
+    {
+      "name": "motion-dog-01",
+      "source_layers": [
+        "PHOTO | motion-dog-01"
+      ],
+      "file": "motion-dog-01.png",
+      "x": 43,
+      "y": 3349,
+      "width": 255,
+      "height": 489
+    },
+    {
+      "name": "motion-dog-04",
+      "source_layers": [
+        "PHOTO | motion-dog-04"
+      ],
+      "file": "motion-dog-04.png",
+      "x": 933,
+      "y": 3394,
+      "width": 290,
+      "height": 445
+    },
+    {
+      "name": "motion-dog-02",
+      "source_layers": [
+        "LOGO | logo-motion-profile"
+      ],
+      "file": "motion-dog-02.png",
+      "x": 311,
+      "y": 3347,
+      "width": 317,
+      "height": 502
+    },
+    {
+      "name": "motion-dog-03",
+      "source_layers": [
+        "LOGO | logo-motion-back"
+      ],
+      "file": "motion-dog-03.png",
+      "x": 661,
+      "y": 3338,
+      "width": 246,
+      "height": 531
+    },
+    {
+      "name": "detail-tile-01",
+      "source_layers": [
+        "PHOTO | detail-tile-01"
+      ],
+      "file": "detail-tile-01.png",
+      "x": 6,
+      "y": 1904,
+      "width": 303,
+      "height": 460
+    },
+    {
+      "name": "detail-tile-02",
+      "source_layers": [
+        "PHOTO | detail-tile-02"
+      ],
+      "file": "detail-tile-02.png",
+      "x": 317,
+      "y": 1904,
+      "width": 307,
+      "height": 460
+    },
+    {
+      "name": "detail-tile-03",
+      "source_layers": [
+        "PHOTO | detail-tile-03"
+      ],
+      "file": "detail-tile-03.png",
+      "x": 630,
+      "y": 1904,
+      "width": 307,
+      "height": 460
+    },
+    {
+      "name": "detail-tile-04",
+      "source_layers": [
+        "PHOTO | detail-tile-04"
+      ],
+      "file": "detail-tile-04.png",
+      "x": 944,
+      "y": 1904,
+      "width": 305,
+      "height": 460
+    },
+    {
+      "name": "detail-tile-05",
+      "source_layers": [
+        "PHOTO | detail-tile-05"
+      ],
+      "file": "detail-tile-05.png",
+      "x": 6,
+      "y": 2376,
+      "width": 303,
+      "height": 463
+    },
+    {
+      "name": "detail-tile-06",
+      "source_layers": [
+        "PHOTO | detail-tile-06"
+      ],
+      "file": "detail-tile-06.png",
+      "x": 317,
+      "y": 2376,
+      "width": 307,
+      "height": 463
+    },
+    {
+      "name": "detail-tile-07",
+      "source_layers": [
+        "PHOTO | detail-tile-07"
+      ],
+      "file": "detail-tile-07.png",
+      "x": 630,
+      "y": 2376,
+      "width": 307,
+      "height": 463
+    },
+    {
+      "name": "detail-tile-08",
+      "source_layers": [
+        "PHOTO | detail-tile-08"
+      ],
+      "file": "detail-tile-08.png",
+      "x": 944,
+      "y": 2376,
+      "width": 305,
+      "height": 463
+    },
+    {
+      "name": "hero-shirt-02",
+      "source_layers": [
+        "PHOTO | hero-shirt-02",
+        "LOGO | logo-hero-shirt-02"
+      ],
+      "file": "hero-shirt-02.png",
+      "x": 286,
+      "y": 819,
+      "width": 252,
+      "height": 350
+    },
+    {
+      "name": "hero-dog",
+      "source_layers": [
+        "LOGO | logo-hero-dog"
+      ],
+      "file": "hero-dog.png",
+      "x": 308,
+      "y": 141,
+      "width": 698,
+      "height": 634
+    },
+    {
+      "name": "hero-shirt-01",
+      "source_layers": [
+        "LOGO | logo-hero-shirt-01"
+      ],
+      "file": "hero-shirt-01.png",
+      "x": 36,
+      "y": 820,
+      "width": 257,
+      "height": 349
+    },
+    {
+      "name": "hero-shirt-03",
+      "source_layers": [
+        "LOGO | logo-hero-shirt-03"
+      ],
+      "file": "hero-shirt-03.png",
+      "x": 525,
+      "y": 819,
+      "width": 239,
+      "height": 350
+    },
+    {
+      "name": "hero-shirt-04",
+      "source_layers": [
+        "LOGO | logo-hero-shirt-04"
+      ],
+      "file": "hero-shirt-04.png",
+      "x": 752,
+      "y": 820,
+      "width": 239,
+      "height": 349
+    },
+    {
+      "name": "hero-shirt-05",
+      "source_layers": [
+        "LOGO | logo-hero-shirt-05"
+      ],
+      "file": "hero-shirt-05.png",
+      "x": 977,
+      "y": 819,
+      "width": 240,
+      "height": 350
+    },
+    {
+      "name": "brand-wordmark-hero",
+      "source_layers": [
+        "BRAND | brand-wordmark-hero"
+      ],
+      "file": "brand-wordmark-hero.png",
+      "x": 518,
+      "y": 42,
+      "width": 218,
+      "height": 40
+    }
+  ]
+}

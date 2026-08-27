@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2050 1000" role="img" aria-labelledby="title desc">
+  <!-- Poster system: 8px rhythm, 1px rules, generous logo safe area. -->
+  <title id="title">拓迹 Pack Trace brand poster</title>
+  <desc id="desc">A dark olive Pack Trace logo poster with a fluorescent trail mark.</desc>
+  <defs>
+    <linearGradient id="tuoji-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10150f" />
+      <stop offset="1" stop-color="#1a220f" />
+    </linearGradient>
+    <pattern id="tuoji-grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#d9f5b4" stroke-opacity=".08" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="2050" height="1000" fill="url(#tuoji-bg)" />
+  <rect width="2050" height="1000" fill="url(#tuoji-grid)" opacity=".45" />
+  <circle cx="1630" cy="180" r="240" fill="#c8ff1a" opacity=".055" />
+  <path d="M88 136H1962M88 864H1962" stroke="#e8f1de" stroke-opacity=".55" />
+  <path d="M88 156H306M1744 844H1962" stroke="#c8ff1a" stroke-width="5" />
+  <text x="88" y="106" fill="#f4f5f0" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">PACK TRACE / BRAND SYSTEM</text>
+  <text x="1962" y="106" fill="#aeb3ab" font-family="Arial, sans-serif" font-size="22" text-anchor="end" letter-spacing="3">FIELD EQUIPMENT / 2026</text>
+
+  <g transform="translate(560 258)">
+    <image href="/assets/tuoji-symbol-reversed.svg" x="0" y="0" width="320" height="320" preserveAspectRatio="xMidYMid meet" />
+    <text x="430" y="155" fill="#f4f5f0" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="8">拓迹</text>
+    <text x="438" y="238" fill="#c8ff1a" font-family="Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="11">PACK TRACE</text>
+    <text x="440" y="296" fill="#aeb3ab" font-family="Arial, sans-serif" font-size="20" letter-spacing="3">MOVE FURTHER / STAY CONNECTED</text>
+  </g>
+
+  <text x="88" y="930" fill="#f4f5f0" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">TECHNICAL OUTDOOR PET SYSTEM</text>
+  <text x="1962" y="930" fill="#c8ff1a" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="end" letter-spacing="3">01 / 08</text>
+</svg>

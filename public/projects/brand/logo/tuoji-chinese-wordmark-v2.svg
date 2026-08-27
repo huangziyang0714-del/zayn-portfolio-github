@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 100" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹中文字标 V2</title>
+  <desc id="desc">以稳定比例、等线宽和四十五度切角重构的拓迹二字。</desc>
+  <g fill="none" stroke="#111310" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="bevel">
+    <!-- 拓：左窄右稳，强调开拓动作与装备结构 -->
+    <path d="M7 26H39M24 7V79L16 87M7 60L40 47"/>
+    <path d="M48 16H102M72 16L54 43M56 43H98V87H56V43"/>
+
+    <!-- 迹：亦部横竖断开以避免误读为述，底部路径向右开放 -->
+    <path d="M124 18L140 30M123 47H142L134 66L148 82H218"/>
+    <path d="M181 6V15M150 26H212M165 42L153 68M181 42V64L176 70M197 42L209 68"/>
+  </g>
+</svg>

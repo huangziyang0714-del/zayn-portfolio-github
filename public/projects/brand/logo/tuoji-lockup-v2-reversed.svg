@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 PACK TRACE 组合标 V2 反白版</title>
+  <desc id="desc">碳黑背景上的荧光黄绿图形与反白中英文字标。</desc>
+  <rect width="760" height="190" fill="#151713"/>
+  <path d="M28 126V98L68 58H118V82H80V126H124" fill="none" stroke="#C8FF1A" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <g transform="translate(172 38) scale(.96)" fill="none" stroke="#F4F5F0" stroke-width="9" stroke-linecap="butt" stroke-linejoin="bevel">
+    <path d="M5 70V6H29L39 16V30L29 40H5"/>
+    <path d="M56 70L70 6H84L100 70M63 45H93"/>
+    <path d="M156 14L148 6H126L116 16V60L126 70H148L156 62"/>
+    <path d="M174 70V6M174 43L208 6M188 29L212 70"/>
+    <path d="M250 6H294M272 6V70"/>
+    <path d="M314 70V6H338L348 16V30L338 40H314M334 40L352 70"/>
+    <path d="M366 70L380 6H394L410 70M373 45H403"/>
+    <path d="M466 14L458 6H436L426 16V60L436 70H458L466 62"/>
+    <path d="M484 6V70H528M484 38H518M484 6H528"/>
+  </g>
+  <rect x="172" y="137" width="30" height="7" fill="#C8FF1A"/>
+  <g transform="translate(218 122) scale(.39)" fill="none" stroke="#F4F5F0" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="bevel">
+    <path d="M7 26H39M24 7V79L16 87M7 60L40 47"/>
+    <path d="M48 16H102M72 16L54 43M56 43H98V87H56V43"/>
+    <path d="M124 18L140 30M123 47H142L134 66L148 82H218"/>
+    <path d="M181 6V15M150 26H212M165 42L153 68M181 42V64L176 70M197 42L209 68"/>
+  </g>
+  <text x="322" y="158" fill="#AEB3AB" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="600" letter-spacing="0">为共同探索而造</text>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 PACK TRACE 标志线稿</title>
+  <desc id="desc">由一条连续折线路径构成的抽象 T 形标志，象征人与宠物共同开拓路径。</desc>
+  <path
+    d="M18 78V58L44 32H78V48H52V78H82"
+    fill="none"
+    stroke="#111310"
+    stroke-width="8"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+</svg>

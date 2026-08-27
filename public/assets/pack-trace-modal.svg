@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 1000" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 Pack Trace portrait project poster</title>
+  <desc id="desc">A portrait Pack Trace logo poster designed for the project modal.</desc>
+  <defs>
+    <linearGradient id="trace-modal-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10150f" />
+      <stop offset="1" stop-color="#1a220f" />
+    </linearGradient>
+    <pattern id="trace-modal-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#d9f5b4" stroke-opacity=".08" />
+    </pattern>
+  </defs>
+  <rect width="780" height="1000" fill="url(#trace-modal-bg)" />
+  <rect width="780" height="1000" fill="url(#trace-modal-grid)" opacity=".5" />
+  <circle cx="636" cy="168" r="180" fill="#c8ff1a" opacity=".055" />
+  <path d="M64 126H716M64 874H716" stroke="#e8f1de" stroke-opacity=".48" />
+  <path d="M64 146H184M596 854H716" stroke="#c8ff1a" stroke-width="6" />
+  <text x="64" y="94" fill="#f4f5f0" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PACK TRACE / 01</text>
+  <text x="716" y="94" fill="#aeb3ab" font-family="Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="2">FIELD EQUIPMENT</text>
+  <text x="390" y="575" fill="#f4f5f0" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="96" font-weight="800" text-anchor="middle" letter-spacing="7">拓迹</text>
+  <text x="390" y="646" fill="#c8ff1a" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle" letter-spacing="9">PACK TRACE</text>
+  <text x="390" y="700" fill="#aeb3ab" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" letter-spacing="3">MOVE FURTHER / STAY CONNECTED</text>
+  <text x="64" y="930" fill="#f4f5f0" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">TECHNICAL OUTDOOR PET SYSTEM</text>
+  <text x="716" y="930" fill="#c8ff1a" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="end" letter-spacing="2">01 / 08</text>
+</svg>

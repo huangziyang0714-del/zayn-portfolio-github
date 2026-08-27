@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 1000" role="img" aria-labelledby="title desc">
+  <!-- Poster system: quiet warm field, high contrast wordmark, no image crop. -->
+  <title id="title">COVELA brand poster</title>
+  <desc id="desc">A warm editorial COVELA logo poster for a pet UV protection shirt.</desc>
+  <defs>
+    <pattern id="covela-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#20231f" stroke-opacity=".08" />
+    </pattern>
+  </defs>
+  <rect width="1350" height="1000" fill="#f2f0eb" />
+  <rect width="1350" height="1000" fill="url(#covela-grid)" opacity=".45" />
+  <circle cx="1110" cy="774" r="210" fill="none" stroke="#e85752" stroke-width="2" stroke-opacity=".26" />
+  <circle cx="1110" cy="774" r="164" fill="none" stroke="#e85752" stroke-width="2" stroke-opacity=".17" />
+  <path d="M72 116H1278M72 884H1278" stroke="#20231f" stroke-opacity=".28" />
+  <path d="M72 136H300M1050 864H1278" stroke="#e85752" stroke-width="5" />
+  <text x="72" y="88" fill="#20231f" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">COVELA / BRAND POSTER</text>
+  <text x="1278" y="88" fill="#6f716c" font-family="Arial, sans-serif" font-size="18" text-anchor="end" letter-spacing="3">03 / 08</text>
+
+  <text x="675" y="560" fill="#5d5f5b" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" letter-spacing="4">PET UV PROTECTION SHIRT</text>
+  <text x="675" y="628" fill="#20231f" font-family="Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle" letter-spacing="1">SUN READY. PET APPROVED.</text>
+  <rect x="625" y="662" width="100" height="7" fill="#e85752" />
+  <text x="675" y="726" fill="#6f716c" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" letter-spacing="3">FIVE COLORS / ONE BACK WORDMARK</text>
+
+  <text x="72" y="930" fill="#20231f" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">A QUIET LAYER FOR LONGER DAYS</text>
+  <text x="1278" y="930" fill="#e85752" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="end" letter-spacing="3">COVELA / 2026</text>
+</svg>

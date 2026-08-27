@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 1000" role="img" aria-labelledby="title desc">
+  <title id="title">MON2SUN portrait brand poster</title>
+  <desc id="desc">A portrait MON2SUN logo poster with a soft green gradient at the bottom.</desc>
+  <defs>
+    <linearGradient id="bottom-green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f8f3" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="#e6f3df" stop-opacity="0.36"/>
+      <stop offset="0.72" stop-color="#b9e0aa" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#68b953"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="780" height="1000" fill="#f6f8f3"/>
+  <rect y="680" width="780" height="320" fill="url(#bottom-green)"/>
+</svg>

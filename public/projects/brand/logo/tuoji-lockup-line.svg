@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 PACK TRACE 横向组合标志线稿</title>
+  <desc id="desc">抽象路径标志、英文品牌名与中文名的横向组合。</desc>
+  <g fill="none" stroke="#111310" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M28 126V98L68 58H118V82H80V126H124"/>
+  </g>
+
+  <!-- Geometric vector wordmark. No external Latin font is required. -->
+  <g transform="translate(172 46)" fill="none" stroke="#111310" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- PACK -->
+    <path d="M0 60V0H22L32 10V23L22 33H0"/>
+    <path d="M44 60L60 0L76 60M50 39H70"/>
+    <path d="M118 8L110 0H92L84 8V52L92 60H110L118 52"/>
+    <path d="M132 60V0M132 34L160 0M143 25L162 60"/>
+
+    <!-- TRACE -->
+    <path d="M198 0H234M216 0V60"/>
+    <path d="M248 60V0H270L280 10V23L270 33H248M266 33L282 60"/>
+    <path d="M294 60L310 0L326 60M300 39H320"/>
+    <path d="M368 8L360 0H342L334 8V52L342 60H360L368 52"/>
+    <path d="M382 0V60H416M382 30H408M382 0H416"/>
+  </g>
+
+  <line x1="172" y1="128" x2="588" y2="128" stroke="#C8FF1A" stroke-width="4"/>
+  <g transform="translate(172 135) scale(.27)" fill="none" stroke="#111310" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M8 25H36M22 8V78L14 86M8 58L38 46"/>
+    <path d="M46 17H98M67 17L50 42M52 43H94V86H52V43"/>
+    <path d="M124 19L138 29M124 46H140L132 66L146 82H210"/>
+    <path d="M176 8V16M148 24H208M177 24V69M163 42L150 67M192 42L205 67"/>
+  </g>
+  <text x="239" y="158" fill="#111310" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700" letter-spacing="0">· 为共同探索而造</text>
+</svg>

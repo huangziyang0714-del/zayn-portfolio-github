@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 1000" role="img" aria-labelledby="title desc">
+  <title id="title">COVELA portrait project poster</title>
+  <desc id="desc">A portrait COVELA wordmark poster designed for the project modal.</desc>
+  <defs>
+    <pattern id="covela-modal-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#20231f" stroke-opacity=".075" />
+    </pattern>
+  </defs>
+  <rect width="780" height="1000" fill="#f2f0eb" />
+  <rect width="780" height="1000" fill="url(#covela-modal-grid)" opacity=".5" />
+  <circle cx="640" cy="800" r="170" fill="none" stroke="#e85752" stroke-width="2" stroke-opacity=".24" />
+  <circle cx="640" cy="800" r="128" fill="none" stroke="#e85752" stroke-width="2" stroke-opacity=".16" />
+  <path d="M64 126H716M64 874H716" stroke="#20231f" stroke-opacity=".28" />
+  <path d="M64 146H182M598 854H716" stroke="#e85752" stroke-width="6" />
+  <text x="64" y="94" fill="#20231f" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">COVELA / BRAND POSTER</text>
+  <text x="716" y="94" fill="#6f716c" font-family="Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="2">03 / 08</text>
+  <text x="390" y="510" fill="#5d5f5b" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" letter-spacing="4">PET UV PROTECTION SHIRT</text>
+  <text x="390" y="580" fill="#20231f" font-family="Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">SUN READY. PET APPROVED.</text>
+  <rect x="340" y="614" width="100" height="7" fill="#e85752" />
+  <text x="390" y="682" fill="#6f716c" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" letter-spacing="3">FIVE COLORS / ONE BACK WORDMARK</text>
+  <text x="64" y="930" fill="#20231f" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">A QUIET LAYER FOR LONGER DAYS</text>
+  <text x="716" y="930" fill="#e85752" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="end" letter-spacing="2">COVELA / 2026</text>
+</svg>

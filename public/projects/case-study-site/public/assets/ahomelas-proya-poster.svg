@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">AHOMELAS&amp;PROYA cosmetic 3D visual poster</title>
+  <desc id="desc">A split warm brown and cool blue product visual poster for AHOMELAS and PROYA.</desc>
+  <defs>
+    <clipPath id="left-panel"><rect x="42" y="280" width="730" height="820" rx="18"/></clipPath>
+    <clipPath id="right-panel"><rect x="828" y="280" width="730" height="820" rx="18"/></clipPath>
+    <linearGradient id="header" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#efe7dc"/>
+      <stop offset="0.5" stop-color="#f8f5f0"/>
+      <stop offset="1" stop-color="#e7eff4"/>
+    </linearGradient>
+    <linearGradient id="warm-panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#a44c1e"/>
+      <stop offset="1" stop-color="#d78c63"/>
+    </linearGradient>
+    <linearGradient id="cool-panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#246b9b"/>
+      <stop offset="1" stop-color="#83c7ed"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#16191b"/>
+  <rect x="24" y="24" width="1552" height="1152" rx="24" fill="url(#header)"/>
+  <rect x="42" y="52" width="1516" height="188" rx="16" fill="#171a1c"/>
+  <text x="80" y="92" fill="#d7cfc5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">PRODUCT VISUAL / 2026</text>
+  <text x="800" y="165" fill="#f8f5f0" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-2" text-anchor="middle">AHOMELAS&amp;PROYA</text>
+  <text x="800" y="208" fill="#9da5a8" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="5" text-anchor="middle">COSMETIC 3D RENDERING / VISUAL SYSTEM</text>
+  <circle cx="76" cy="192" r="7" fill="#d27743"/>
+  <circle cx="1524" cy="192" r="7" fill="#75b9df"/>
+
+  <rect x="42" y="280" width="730" height="820" rx="18" fill="url(#warm-panel)"/>
+  <image x="42" y="280" width="730" height="820" preserveAspectRatio="xMinYMid slice" clip-path="url(#left-panel)" href="ahomelas-hero.png" xlink:href="ahomelas-hero.png"/>
+  <rect x="42" y="280" width="730" height="820" rx="18" fill="#9b421d" opacity=".12"/>
+  <rect x="828" y="280" width="730" height="820" rx="18" fill="url(#cool-panel)"/>
+  <image x="828" y="280" width="730" height="820" preserveAspectRatio="xMaxYMid slice" clip-path="url(#right-panel)" href="proya-hero.png" xlink:href="proya-hero.png"/>
+  <rect x="828" y="280" width="730" height="820" rx="18" fill="#116a9c" opacity=".1"/>
+
+  <rect x="70" y="310" width="152" height="34" rx="17" fill="#171a1c" opacity=".84"/>
+  <text x="146" y="333" fill="#f8f5f0" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="2" text-anchor="middle">AHOMELAS</text>
+  <rect x="856" y="310" width="124" height="34" rx="17" fill="#f8f5f0" opacity=".9"/>
+  <text x="918" y="333" fill="#171a1c" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="2" text-anchor="middle">PROYA</text>
+
+  <rect x="42" y="1122" width="1516" height="34" rx="17" fill="#171a1c"/>
+  <text x="72" y="1145" fill="#d7cfc5" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3">WARM / AMBER</text>
+  <text x="1528" y="1145" fill="#b9d9ea" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3" text-anchor="end">COOL / OCEAN</text>
+</svg>

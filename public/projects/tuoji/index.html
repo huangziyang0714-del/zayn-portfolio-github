@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PACK TRACE technical outdoor pet equipment brochure.">
+  <title>PACK TRACE | Latest Brand Brochure</title>
+  <script>if (window.self !== window.top) document.documentElement.classList.add('is-embedded');</script>
+  <link rel="stylesheet" href="./styles.css?v=20260719-1">
+</head>
+<body>
+  <a class="back-portfolio" href="../../#work" aria-label="返回个人站" title="返回个人站">
+    <span aria-hidden="true">&larr;</span>
+  </a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <nav class="section-nav" aria-label="Brochure sections">
+    <a href="#hero" data-nav="hero" aria-label="Hero" title="Hero"><span>00</span></a>
+    <a href="#manifesto" data-nav="manifesto" aria-label="Manifesto" title="Manifesto"><span>01</span></a>
+    <a href="#harness" data-nav="harness" aria-label="Harness" title="Harness"><span>02</span></a>
+    <a href="#leash" data-nav="leash" aria-label="Leash" title="Leash"><span>03</span></a>
+    <a href="#hydration" data-nav="hydration" aria-label="Hydration" title="Hydration"><span>04</span></a>
+    <a href="#closing" data-nav="closing" aria-label="Closing" title="Closing"><span>05</span></a>
+  </nav>
+  <main class="brochure" aria-label="PACK TRACE brand brochure">
+    <header class="hero" id="hero" data-section="hero">
+      <img class="hero-background" src="./assets/hero-background.png" alt="Woman and dog wearing PACK TRACE equipment on an alpine ridge">
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="brand-row">
+        <a class="brand" href="#hero" aria-label="PACK TRACE">
+          <img class="brand-symbol" src="../brand/logo/tuoji-symbol-reversed.svg" alt="">
+          <img class="brand-wordmark" src="../brand/logo/tuoji-english-wordmark-v2.svg" alt="PACK TRACE">
+        </a>
+        <span class="collection">TRAIL SYSTEM / 01</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">TECHNICAL EQUIPMENT FOR HUMAN + PET EXPEDITIONS</p>
+        <h1><span class="copy-line">BUILT FOR</span><span class="copy-line">THE TRAIL.</span></h1>
+        <p class="hero-line"><span class="copy-line">DESIGNED FOR THE BOND.</span></p>
+      </div>
+
+      <div class="hero-meta" aria-label="Campaign details">
+        <span>ALPINE FIELD / 04,260 M</span>
+        <span>DURABLE / LIGHTWEIGHT</span>
+        <span>2026 FIELD SERIES</span>
+      </div>
+    </header>
+
+    <section class="plate-section" id="manifesto" data-section="manifesto" aria-label="Brand manifesto">
+      <img src="./assets/manifesto.png" alt="MOVE FURTHER. STAY CONNECTED. Brand manifesto">
+      <div class="copy-mask copy-mask-manifesto" aria-hidden="true"></div>
+      <div class="section-copy section-copy-manifesto" aria-label="Brand manifesto copy">
+        <span class="copy-kicker">PACK TRACE / EQUIPMENT<br>SYSTEM 01-03</span>
+        <h2>
+          <span class="copy-line">MOVE</span>
+          <span class="copy-line">FURTHER.</span>
+          <span class="copy-line">STAY</span>
+          <span class="copy-line">CONNECTED.</span>
+        </h2>
+        <p class="copy-description">Purpose-built equipment<br>for exposed trails, technical<br>approaches and the quiet<br>miles shared beyond the<br>road.</p>
+        <div class="copy-specs">
+          <span><b>01</b> MODULAR</span>
+          <span><b>02</b> FIELD-TESTED</span>
+          <span><b>03</b> LOW-BULK</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="plate-section" id="harness" data-section="harness" aria-label="PT-H01 modular trail harness">
+      <img src="./assets/harness.png" alt="PT-H01 modular trail harness field use and product details">
+    </section>
+
+    <section class="plate-section" id="leash" data-section="leash" aria-label="PT-L01 modular trail leash">
+      <img src="./assets/leash.png" alt="PT-L01 modular trail leash field use and product details">
+    </section>
+
+    <section class="plate-section" id="hydration" data-section="hydration" aria-label="PT-W01 fold-flat hydration system">
+      <img src="./assets/hydration.png" alt="PT-W01 fold-flat hydration system field use and product details">
+    </section>
+
+    <footer class="plate-section" id="closing" data-section="closing" aria-label="Brand closing statement">
+      <div class="copy-mask copy-mask-closing" aria-hidden="true"></div>
+      <div class="section-copy section-copy-closing" aria-label="Brand closing statement">
+        <h2 class="scroll-float" data-scroll-float="THE TRAIL CHANGES.|THE BOND HOLDS." aria-label="THE TRAIL CHANGES. THE BOND HOLDS."></h2>
+        <p class="closing-copy-cn">拓迹，为山野而生</p>
+      </div>
+      <img src="./assets/closing.png" alt="THE TRAIL CHANGES. THE BOND HOLDS. 拓迹，为山野而生">
+    </footer>
+  </main>
+  <script>
+    (() => {
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const sections = [...document.querySelectorAll('[data-section]')];
+      const navLinks = [...document.querySelectorAll('[data-nav]')];
+      const progress = document.querySelector('.scroll-progress span');
+      const hero = document.querySelector('.hero');
+      const closing = document.querySelector('#closing');
+      const floatHeading = document.querySelector('[data-scroll-float]');
+
+      const setActive = (name) => {
+        navLinks.forEach((link) => {
+          const active = link.dataset.nav === name;
+          link.classList.toggle('is-active', active);
+          if (active) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+      };
+
+      const updateProgress = () => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        progress.style.transform = `scaleX(${max > 0 ? window.scrollY / max : 0})`;
+      };
+
+      const clamp = (value, min = 0, max = 1) => Math.min(max, Math.max(min, value));
+      const smoothstep = (value) => value * value * (3 - 2 * value);
+
+      const setupScrollFloat = () => {
+        if (!floatHeading) return;
+        const rows = floatHeading.dataset.scrollFloat.split('|');
+        floatHeading.replaceChildren(...rows.map((row) => {
+          const line = document.createElement('span');
+          line.className = 'scroll-float-line';
+          [...row].forEach((character) => {
+            const char = document.createElement('span');
+            char.className = 'scroll-float-char';
+            char.textContent = character === ' ' ? '\u00a0' : character;
+            line.appendChild(char);
+          });
+          return line;
+        }));
+      };
+
+      const updateScrollFloat = () => {
+        if (!floatHeading || !closing) return;
+        const characters = [...floatHeading.querySelectorAll('.scroll-float-char')];
+        if (reduceMotion) {
+          characters.forEach((char) => char.style.setProperty('--char-progress', '1'));
+          closing.style.setProperty('--float-progress', '1');
+          return;
+        }
+        const rect = closing.getBoundingClientRect();
+        const viewport = window.innerHeight;
+        const enter = smoothstep(clamp((viewport * 0.88 - rect.top) / (viewport * 0.52)));
+        const exit = smoothstep(clamp((viewport * 0.72 - rect.bottom) / (viewport * 0.52)));
+        const count = characters.length || 1;
+        characters.forEach((char, index) => {
+          const normalizedIndex = index / Math.max(count - 1, 1);
+          const enterDelay = normalizedIndex * 0.28;
+          const exitDelay = (1 - normalizedIndex) * 0.24;
+          const charIn = clamp((enter - enterDelay) / 0.66);
+          const charOut = clamp((exit - exitDelay) / 0.58);
+          char.style.setProperty('--char-progress', (charIn * (1 - charOut)).toFixed(3));
+        });
+        closing.style.setProperty('--float-progress', clamp(enter * (1 - exit)).toFixed(3));
+      };
+
+      setupScrollFloat();
+      let floatFrame = 0;
+      const requestFloatUpdate = () => {
+        cancelAnimationFrame(floatFrame);
+        floatFrame = requestAnimationFrame(updateScrollFloat);
+      };
+
+      if (!reduceMotion) {
+        const revealObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            entry.target.classList.toggle('is-visible', entry.isIntersecting);
+          });
+        }, { threshold: 0.08, rootMargin: '0px 0px -8% 0px' });
+        sections.forEach((section) => revealObserver.observe(section));
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) setActive(entry.target.dataset.section);
+          });
+        }, { threshold: 0.45 });
+        sections.forEach((section) => sectionObserver.observe(section));
+
+        let frame = 0;
+        hero.addEventListener('pointermove', (event) => {
+          cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(() => {
+            const rect = hero.getBoundingClientRect();
+            const x = ((event.clientX - rect.left) / rect.width - 0.5) * 2;
+            const y = ((event.clientY - rect.top) / rect.height - 0.5) * 2;
+            hero.style.setProperty('--pointer-x', `${x.toFixed(3)}`);
+            hero.style.setProperty('--pointer-y', `${y.toFixed(3)}`);
+          });
+        });
+        hero.addEventListener('pointerleave', () => {
+          hero.style.setProperty('--pointer-x', '0');
+          hero.style.setProperty('--pointer-y', '0');
+        });
+
+        sections.forEach((section) => {
+          let sectionFrame = 0;
+          section.addEventListener('pointermove', (event) => {
+            cancelAnimationFrame(sectionFrame);
+            sectionFrame = requestAnimationFrame(() => {
+              const rect = section.getBoundingClientRect();
+              const x = ((event.clientX - rect.left) / rect.width - 0.5) * 2;
+              const y = ((event.clientY - rect.top) / rect.height - 0.5) * 2;
+              section.style.setProperty('--image-x', `${x.toFixed(3)}`);
+              section.style.setProperty('--image-y', `${y.toFixed(3)}`);
+            });
+          });
+          section.addEventListener('pointerleave', () => {
+            section.style.setProperty('--image-x', '0');
+            section.style.setProperty('--image-y', '0');
+          });
+        });
+      } else {
+        sections.forEach((section) => section.classList.add('is-visible'));
+      }
+
+      window.addEventListener('scroll', updateProgress, { passive: true });
+      window.addEventListener('scroll', requestFloatUpdate, { passive: true });
+      window.addEventListener('resize', updateProgress, { passive: true });
+      window.addEventListener('resize', requestFloatUpdate, { passive: true });
+      updateProgress();
+      updateScrollFloat();
+      setActive('hero');
+      requestAnimationFrame(() => document.documentElement.classList.add('motion-ready'));
+    })();
+  </script>
+</body>
+</html>

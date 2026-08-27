@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 PACK TRACE 字标系统 V2</title>
+  <desc id="desc">展示重新设计的中英文字标、构造规则、组合关系与反白应用。</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#D9DDD5" stroke-width="1"/>
+    </pattern>
+    <style>
+      .hero { font: 700 58px Arial, sans-serif; fill: #151713; letter-spacing: 0; }
+      .section { font: 700 27px Arial, Microsoft YaHei, sans-serif; fill: #151713; letter-spacing: 0; }
+      .label { font: 700 16px Arial, Microsoft YaHei, sans-serif; fill: #151713; letter-spacing: 0; }
+      .body { font: 400 17px Arial, Microsoft YaHei, sans-serif; fill: #565B54; letter-spacing: 0; }
+      .micro { font: 400 13px Arial, Microsoft YaHei, sans-serif; fill: #747A72; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1080" fill="#F4F5F0"/>
+  <rect width="22" height="1080" fill="#C8FF1A"/>
+  <text x="88" y="104" class="hero">WORDMARK SYSTEM V2</text>
+  <text x="90" y="148" class="section">拓迹 PACK TRACE / FIELD STANDARD</text>
+  <text x="90" y="188" class="body">保留原图形标志，仅重构中英文字形与组合层级</text>
+
+  <!-- English construction -->
+  <text x="90" y="266" class="label">01 / ENGLISH WORDMARK</text>
+  <rect x="90" y="298" width="900" height="260" fill="url(#grid)" stroke="#C9CDC5"/>
+  <line x1="130" y1="350" x2="950" y2="350" stroke="#AEB3AB" stroke-dasharray="8 8"/>
+  <line x1="130" y1="486" x2="950" y2="486" stroke="#AEB3AB" stroke-dasharray="8 8"/>
+  <g transform="translate(132 358) scale(1.52)" fill="none" stroke="#151713" stroke-width="9" stroke-linecap="butt" stroke-linejoin="bevel">
+    <path d="M5 70V6H29L39 16V30L29 40H5"/>
+    <path d="M56 70L70 6H84L100 70M63 45H93"/>
+    <path d="M156 14L148 6H126L116 16V60L126 70H148L156 62"/>
+    <path d="M174 70V6M174 43L208 6M188 29L212 70"/>
+    <path d="M250 6H294M272 6V70"/>
+    <path d="M314 70V6H338L348 16V30L338 40H314M334 40L352 70"/>
+    <path d="M366 70L380 6H394L410 70M373 45H403"/>
+    <path d="M466 14L458 6H436L426 16V60L436 70H458L466 62"/>
+    <path d="M484 6V70H528M484 38H518M484 6H528"/>
+  </g>
+  <text x="112" y="540" class="micro">CAP 64u / STROKE 9u / BEVEL 45° / WORD GAP 38u</text>
+
+  <!-- Rule callouts -->
+  <text x="1050" y="266" class="label">02 / DESIGN RULES</text>
+  <g transform="translate(1050 310)">
+    <rect width="460" height="248" fill="#E9EBE6"/>
+    <rect x="30" y="34" width="34" height="8" fill="#C8FF1A"/>
+    <text x="86" y="44" class="section">稳定，而非竞速</text>
+    <text x="30" y="82" class="body">半窄比例适合装备铭牌与织带，不使用过度尖锐字形。</text>
+    <rect x="30" y="112" width="34" height="8" fill="#C8FF1A"/>
+    <text x="86" y="122" class="section">切角，而非装饰</text>
+    <text x="30" y="160" class="body">45° 只出现在受力转角，呼应锁扣与路径转向。</text>
+    <rect x="30" y="190" width="34" height="8" fill="#C8FF1A"/>
+    <text x="86" y="200" class="section">字形防误读</text>
+    <text x="30" y="232" class="body">“亦”部横竖断开，明确区分“迹”与“述”。</text>
+  </g>
+
+  <!-- Chinese wordmark -->
+  <text x="90" y="636" class="label">03 / CHINESE WORDMARK</text>
+  <rect x="90" y="668" width="560" height="286" fill="url(#grid)" stroke="#C9CDC5"/>
+  <g transform="translate(136 706) scale(1.78)" fill="none" stroke="#151713" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="bevel">
+    <path d="M7 26H39M24 7V79L16 87M7 60L40 47"/>
+    <path d="M48 16H102M72 16L54 43M56 43H98V87H56V43"/>
+    <path d="M124 18L140 30M123 47H142L134 66L148 82H218"/>
+    <path d="M181 6V15M150 26H212M165 42L153 68M181 42V64L176 70M197 42L209 68"/>
+  </g>
+  <text x="112" y="936" class="micro">亦部横竖断开 / 辶底部向右开放 / 与英文共用 45° 切角</text>
+
+  <!-- Lockup applications -->
+  <text x="720" y="636" class="label">04 / LOCKUP</text>
+  <rect x="720" y="668" width="790" height="128" fill="#FFFFFF" stroke="#D8DBD5"/>
+  <g transform="translate(748 674) scale(.72)">
+    <path d="M28 126V98L68 58H118V82H80V126H124" fill="none" stroke="#151713" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+    <g transform="translate(172 38) scale(.96)" fill="none" stroke="#151713" stroke-width="9" stroke-linecap="butt" stroke-linejoin="bevel">
+      <path d="M5 70V6H29L39 16V30L29 40H5"/><path d="M56 70L70 6H84L100 70M63 45H93"/><path d="M156 14L148 6H126L116 16V60L126 70H148L156 62"/><path d="M174 70V6M174 43L208 6M188 29L212 70"/><path d="M250 6H294M272 6V70"/><path d="M314 70V6H338L348 16V30L338 40H314M334 40L352 70"/><path d="M366 70L380 6H394L410 70M373 45H403"/><path d="M466 14L458 6H436L426 16V60L436 70H458L466 62"/><path d="M484 6V70H528M484 38H518M484 6H528"/>
+    </g>
+    <rect x="172" y="137" width="30" height="7" fill="#C8FF1A"/>
+    <g transform="translate(218 122) scale(.39)" fill="none" stroke="#151713" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="bevel">
+      <path d="M7 26H39M24 7V79L16 87M7 60L40 47"/><path d="M48 16H102M72 16L54 43M56 43H98V87H56V43"/><path d="M124 18L140 30M123 47H142L134 66L148 82H218"/><path d="M181 6V15M150 26H212M165 42L153 68M181 42V64L176 70M197 42L209 68"/>
+    </g>
+  </g>
+
+  <rect x="720" y="826" width="790" height="128" fill="#151713"/>
+  <g transform="translate(748 832) scale(.72)">
+    <path d="M28 126V98L68 58H118V82H80V126H124" fill="none" stroke="#C8FF1A" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+    <g transform="translate(172 38) scale(.96)" fill="none" stroke="#F4F5F0" stroke-width="9" stroke-linecap="butt" stroke-linejoin="bevel">
+      <path d="M5 70V6H29L39 16V30L29 40H5"/><path d="M56 70L70 6H84L100 70M63 45H93"/><path d="M156 14L148 6H126L116 16V60L126 70H148L156 62"/><path d="M174 70V6M174 43L208 6M188 29L212 70"/><path d="M250 6H294M272 6V70"/><path d="M314 70V6H338L348 16V30L338 40H314M334 40L352 70"/><path d="M366 70L380 6H394L410 70M373 45H403"/><path d="M466 14L458 6H436L426 16V60L436 70H458L466 62"/><path d="M484 6V70H528M484 38H518M484 6H528"/>
+    </g>
+    <rect x="172" y="137" width="30" height="7" fill="#C8FF1A"/>
+    <g transform="translate(218 122) scale(.39)" fill="none" stroke="#F4F5F0" stroke-width="7.5" stroke-linecap="butt" stroke-linejoin="bevel">
+      <path d="M7 26H39M24 7V79L16 87M7 60L40 47"/><path d="M48 16H102M72 16L54 43M56 43H98V87H56V43"/><path d="M124 18L140 30M123 47H142L134 66L148 82H218"/><path d="M181 6V15M150 26H212M165 42L153 68M181 42V64L176 70M197 42L209 68"/>
+    </g>
+  </g>
+
+  <text x="90" y="1028" class="body">建议主使用：英文为第一识别，中文为市场识别；荧光黄绿仅承担路径节点与安全提示。</text>
+</svg>

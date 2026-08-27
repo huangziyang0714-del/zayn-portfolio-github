@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹 PACK TRACE 反白标志</title>
+  <desc id="desc">荧光黄绿色标志应用于碳黑背景。</desc>
+  <rect width="100" height="100" fill="#151713"/>
+  <path
+    d="M18 78V58L44 32H78V48H52V78H82"
+    fill="none"
+    stroke="#C8FF1A"
+    stroke-width="8"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+</svg>

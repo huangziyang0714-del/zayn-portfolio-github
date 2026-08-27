@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 100" role="img" aria-labelledby="title desc">
+  <title id="title">拓迹中文字标线稿</title>
+  <desc id="desc">以等线宽、直角端点和几何转折绘制的拓迹二字。</desc>
+  <g fill="none" stroke="#111310" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- 拓：扌 + 石 -->
+    <path d="M8 25H36M22 8V78L14 86M8 58L38 46"/>
+    <path d="M46 17H98M67 17L50 42M52 43H94V86H52V43"/>
+
+    <!-- 迹：辶 + 亦 -->
+    <path d="M124 19L138 29M124 46H140L132 66L146 82H210"/>
+    <path d="M176 8V16M148 24H208M177 24V69M163 42L150 67M192 42L205 67"/>
+  </g>
+</svg>
