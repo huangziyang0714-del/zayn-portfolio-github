@@ -202,7 +202,7 @@ const projectCatalog = [
 ];
 
 // Keep the work section intentionally video-first, then graphic work.
-const projectOrder = ['06', '12', '10', '11', '13', '14', '07', '08', '09', '01', '03', '02', '04'];
+const projectOrder = ['06', '14', '12', '10', '11', '13', '07', '08', '09', '01', '03', '02', '04'];
 const projectLayouts = {
   '06': 'featured',
   '12': 'standard',
