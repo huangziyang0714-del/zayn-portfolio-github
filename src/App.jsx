@@ -168,13 +168,16 @@ function Manifesto({ text }) {
   );
 }
 
-function ProjectModal({ index, lang, text, close, next, openProject }) {
+function HomeIcon() { return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1V10Z" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg>; }
+
+function ProjectModal({ index, lang, text, close, next, openProject, goHome }) {
   const project = index === null ? projects[0] : projects[index];
   const open = index !== null;
   const externalProject = project.presentation === 'external';
   return (
     <div className={`project-modal${project.posterLogoClass ? ` project-modal--${project.posterLogoClass}` : ''}${project.video ? ' project-modal--video' : ''}${open ? ' is-open' : ''}`} role="dialog" aria-modal="true" aria-hidden={!open} inert={!open} aria-labelledby="modal-title">
       <button className="modal-close" type="button" aria-label="Close project" onClick={close}>×</button>
+      <button className="modal-home" type="button" aria-label="Back to homepage" title="Back to homepage" onClick={goHome}><HomeIcon /></button>
       <div className={`modal-visual${project.posterLogoClass ? ` modal-visual--${project.posterLogoClass}` : ''}`}>
         {project.video ? (
           <video src={project.video} poster={project.poster} controls playsInline preload="metadata" aria-label={project.title[lang]} />
@@ -208,7 +211,7 @@ function ProjectModal({ index, lang, text, close, next, openProject }) {
   );
 }
 
-function ProjectViewer({ project, lang, close }) {
+function ProjectViewer({ project, lang, close, goHome }) {
   if (!project) return null;
   return (
     <div className="project-viewer is-open" role="dialog" aria-modal="true" aria-label={`${project.title[lang]} project viewer`}>
@@ -216,6 +219,7 @@ function ProjectViewer({ project, lang, close }) {
         <button type="button" onClick={close} aria-label="返回项目概览"><span aria-hidden="true">←</span><span>{project.title[lang]}</span></button>
         <a href={project.link} target="_blank" rel="noreferrer">{lang === 'zh' ? '新窗口打开' : 'OPEN IN NEW WINDOW'} <b aria-hidden="true">↗</b></a>
       </div>
+      <button className="viewer-home" type="button" aria-label="Back to homepage" title="Back to homepage" onClick={goHome}><HomeIcon /></button>
       <iframe src={project.link} title={`${project.title[lang]} website`} allow="autoplay; fullscreen" />
     </div>
   );
@@ -230,6 +234,7 @@ export default function App() {
   const [embeddedProject, setEmbeddedProject] = useState(null);
   const ready = usePageReady();
   const text = copy[lang];
+  const goHome = () => { setActiveProject(null); setEmbeddedProject(null); window.location.hash = 'top'; window.requestAnimationFrame(() => document.getElementById('top')?.scrollIntoView({ behavior: 'auto' })); };
 
   useEffect(() => {
     const onHashChange = () => setPage(getPageFromHash());
@@ -293,8 +298,9 @@ export default function App() {
         close={() => setActiveProject(null)}
         openProject={setEmbeddedProject}
         next={() => setActiveProject((value) => (value + 1) % projects.length)}
+        goHome={goHome}
       />
-      <ProjectViewer project={embeddedProject} lang={lang} close={() => setEmbeddedProject(null)} />
+      <ProjectViewer project={embeddedProject} lang={lang} close={() => setEmbeddedProject(null)} goHome={goHome} />
     </>
   );
 }
