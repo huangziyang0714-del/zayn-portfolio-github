@@ -7,7 +7,7 @@ export const copy = {
       title: '视觉实验场',
       intro: '品牌、平面与动态影像。每个项目都是一次关于秩序、材质和节奏的独立研究。',
     },
-    filter: { all: '全部', graphic: '平面', motion: '视频' },
+    filter: { all: '全部', graphic: '平面', motion: '视频', threeD: '三维' },
     manifesto: { first: '清晰不是终点', second: '它是制造冲击的起点', about: '了解我的方法' },
     modal: { intro: '项目介绍', role: '我的职责', next: '下一个项目', visit: '打开项目网站' },
     about: {
@@ -63,7 +63,7 @@ export const copy = {
       eyebrow: 'Selected work / 2023-2026', title: 'Visual Lab',
       intro: 'Identity, graphics and moving image. Each project is an independent study in order, texture and rhythm.',
     },
-    filter: { all: 'All', graphic: 'Graphic', motion: 'Motion' },
+    filter: { all: 'All', graphic: 'Graphic', motion: 'Motion', threeD: '3D' },
     manifesto: { first: 'Clarity is not the end', second: "It's where impact begins", about: 'See my approach' },
     modal: { intro: 'Project', role: 'My role', next: 'Next project', visit: 'Open project site' },
     about: {
@@ -164,7 +164,7 @@ const projectCatalog = [
     role: { zh: '创意构思、画面设计、动态制作与后期剪辑', en: 'Creative concept, visual design, motion production and editing' },
   },
   {
-    id: '08', category: 'motion', year: '2026', image: '/assets/3d-animation-practice.mp4', video: '/assets/3d-animation-practice.mp4', accent: '#7d8cff',
+    id: '08', category: 'threeD', year: '2026', image: '/assets/3d-animation-practice.mp4', video: '/assets/3d-animation-practice.mp4', accent: '#7d8cff',
     title: { zh: '三维动画练习', en: '3D Animation Practice' }, type: { zh: '三维动画 / 视频', en: '3D Animation / Video' },
     description: { zh: '围绕材质、光影与镜头运动展开的三维动画练习，通过动态节奏与空间变化探索数字影像的视觉表现。', en: 'A 3D animation study exploring material, light and camera movement through shifting space and paced motion.' },
     role: { zh: '三维设计、动画制作、灯光材质与后期合成', en: '3D design, animation, lighting, materials and compositing' },

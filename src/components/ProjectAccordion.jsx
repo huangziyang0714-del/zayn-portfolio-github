@@ -14,7 +14,7 @@ export default function ProjectAccordion({ projects, lang, text, filter, setFilt
       </div>
 
       <div className="work-filter reveal" aria-label={lang === 'zh' ? '作品分类' : 'Project categories'}>
-        {['all', 'graphic', 'motion'].map((value) => (
+        {['all', 'graphic', 'motion', 'threeD'].map((value) => (
           <button
             key={value}
             type="button"
