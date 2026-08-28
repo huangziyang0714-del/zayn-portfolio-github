@@ -35,9 +35,9 @@ export const copy = {
       ],
       educationLabel: '教育经历',
       education: {
-        school: '江苏理工大学', meta: '本科 / 数字媒体技术 / 2021-2025',
+        school: '江苏理工学院', meta: '本科 / 数字媒体技术 / 2021-2025',
         body: '专业排名前 15%，获校奖学金；参与紫金奖工业设计大赛。毕业设计完成故宫博物院钟表馆写字人钟的三维制作与动画创作。',
-        logoAlt: '江苏理工大学校标',
+        logoAlt: '江苏理工学院校标',
       },
       certificatesLabel: '资格证书',
       certificates: ['大学英语四级（CET-4）', '普通话二级甲等'],
