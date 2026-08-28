@@ -1253,6 +1253,12 @@ body { background: #f5f5f7; color: #1d1d1f; }
 .career-poster__index { justify-content: flex-start; flex-wrap: wrap; gap: 8px 18px; padding-top: 14px; border-top: 1px solid rgba(16, 32, 51, 0.18); color: rgba(16, 32, 51, 0.7); }
 .career-poster__footer { margin-top: 22px; color: rgba(16, 32, 51, 0.56); }
 
+/* Homepage navigation uses one neutral treatment across every project view. */
+.modal-home,
+.viewer-home { color: #1d1d1f; background: rgba(255, 255, 255, 0.92); border-color: rgba(29, 29, 31, 0.18); }
+.modal-home:hover,
+.viewer-home:hover { background: #0071e3; border-color: #0071e3; color: #ffffff; }
+
 @media (max-width: 767px) {
   .about-practice__image { min-height: 520px; }
   .career-poster { min-height: 520px; padding: 24px; }
