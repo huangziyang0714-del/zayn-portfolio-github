@@ -193,16 +193,23 @@ const projectCatalog = [
     description: { zh: '围绕轻松日常与生活方式场景展开的竖屏 AI vlog，通过人物表演、生活细节和节奏化剪辑建立自然亲切的观看体验。', en: 'A vertical AI vlog shaped around casual lifestyle moments, combining character performance, everyday detail and paced editing.' },
     role: { zh: '内容策划、封面设计、视频剪辑与 AI 视觉制作', en: 'Content planning, cover design, editing and AI-assisted visual production' },
   },
+  {
+    id: '14', category: 'motion', year: '2026', image: '/assets/perfume-case-cover.jpg', poster: '/assets/perfume-case-cover.jpg', video: '/assets/perfume-case.mp4', accent: '#b89473',
+    title: { zh: '香水案例', en: 'Perfume Case' }, type: { zh: '视频作品 / TVC', en: 'Video / TVC' },
+    description: { zh: '以香水产品为核心的商业视频案例，通过材质细节、光影变化与节奏化镜头建立具有质感的香氛视觉叙事。', en: 'A commercial perfume case study built through material detail, shifting light and paced cinematography for a refined fragrance narrative.' },
+    role: { zh: '创意构思、画面设计、动态制作与后期剪辑', en: 'Creative concept, visual design, motion production and editing' },
+  },
 ];
 
 // Keep the work section intentionally video-first, then graphic work.
-const projectOrder = ['06', '12', '10', '11', '13', '07', '08', '09', '01', '03', '02', '04'];
+const projectOrder = ['06', '12', '10', '11', '13', '14', '07', '08', '09', '01', '03', '02', '04'];
 const projectLayouts = {
   '06': 'featured',
   '12': 'standard',
   '10': 'portrait',
   '11': 'portrait',
   '13': 'portrait',
+  '14': 'standard',
   '07': 'standard',
   '08': 'standard',
   '09': 'standard',
