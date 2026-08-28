@@ -41,6 +41,7 @@ function useReveal(dependencies) {
   useEffect(() => {
     const elements = document.querySelectorAll('.reveal');
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
     if (reduceMotion) {
       elements.forEach((element) => element.classList.add('is-visible'));
       return undefined;
@@ -58,11 +59,17 @@ function useReveal(dependencies) {
         // A section leaving through the top receives a short exit transition.
         // Leaving below the viewport restores its entrance position for the
         // next downward pass.
+        // On phones, keep content visible once it has entered. This avoids
+        // hiding a long gallery while the user is moving through it quickly.
+        if (isMobile) return;
         const hasPassedViewport = entry.boundingClientRect.top < 0;
         entry.target.classList.toggle('is-exiting', hasPassedViewport);
         entry.target.classList.remove('is-visible');
       });
-    }, { threshold: 0.14, rootMargin: '-6% 0px -6% 0px' });
+    }, {
+      threshold: isMobile ? 0.01 : 0.14,
+      rootMargin: isMobile ? '24% 0px 24% 0px' : '-6% 0px -6% 0px',
+    });
 
     elements.forEach((element) => {
       const parent = element.parentElement;

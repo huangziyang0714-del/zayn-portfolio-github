@@ -482,6 +482,7 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 767px) {
   :root { --pad: 18px; }
+  .project-gallery__item { content-visibility: visible; contain-intrinsic-size: auto; }
   body::after { opacity: 0.1; }
   .site-header { top: 10px; width: calc(100% - 20px); min-height: 58px; padding: 6px 7px 6px 16px; background: rgba(90, 29, 19, 0.68); backdrop-filter: blur(14px); }
   .site-header__brand span, .desktop-nav { display: none; }
