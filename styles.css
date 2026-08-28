@@ -938,6 +938,11 @@ body::after { display: none; }
   .modal-close { background: #1c1c1e; -webkit-backdrop-filter: none; backdrop-filter: none; }
 }
 
+/* Keep the complete mobile catalog paintable while scrolling quickly. */
+@media (max-width: 767px) {
+  .project-gallery__item { content-visibility: visible !important; contain-intrinsic-size: auto !important; }
+}
+
 @media (max-width: 767px) {
   .site-header { top: 10px; width: calc(100% - 20px); background: rgba(18, 18, 20, 0.76); }
   .work-section { padding-top: 112px; }
