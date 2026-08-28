@@ -146,7 +146,7 @@ const projectCatalog = [
     role: { zh: '视觉企划、摄影方向、平面与社交内容', en: 'Visual direction, photography direction, graphics, social content' },
   },
   {
-    id: '06', category: 'motion', year: '2026', image: '/assets/pet-feeder-tvc.mp4', video: '/assets/pet-feeder-tvc.mp4', accent: '#f24d29',
+    id: '06', category: 'motion', year: '2026', image: '/assets/pet-feeder-tvc.mp4', poster: '/assets/pet-feeder-tvc-cover.jpg', video: '/assets/pet-feeder-tvc.mp4', accent: '#f24d29',
     title: { zh: '宠物智能喂食器TVC广告', en: 'Smart Pet Feeder TVC' }, type: { zh: 'TVC广告 / 视频', en: 'TVC / Film' },
     description: { zh: '围绕宠物智能喂食器的产品功能与日常使用场景展开，通过镜头节奏、产品特写和生活化叙事呈现便捷、安心的智能喂养体验。', en: 'A product film for a smart pet feeder, using paced editing, close-up product details and everyday scenarios to communicate a convenient, reassuring feeding experience.' },
     role: { zh: '广告创意、画面设计、动态制作与后期剪辑', en: 'Creative direction, visual design, motion production and editing' },
@@ -164,7 +164,7 @@ const projectCatalog = [
     role: { zh: '创意构思、画面设计、动态制作与后期剪辑', en: 'Creative concept, visual design, motion production and editing' },
   },
   {
-    id: '08', category: 'threeD', year: '2026', image: '/assets/3d-animation-practice.mp4', video: '/assets/3d-animation-practice.mp4', accent: '#7d8cff',
+    id: '08', category: 'threeD', year: '2026', image: '/assets/3d-animation-practice.mp4', poster: '/assets/3d-animation-practice-cover.jpg', video: '/assets/3d-animation-practice.mp4', accent: '#7d8cff',
     title: { zh: '三维动画练习', en: '3D Animation Practice' }, type: { zh: '三维动画 / 视频', en: '3D Animation / Video' },
     description: { zh: '围绕材质、光影与镜头运动展开的三维动画练习，通过动态节奏与空间变化探索数字影像的视觉表现。', en: 'A 3D animation study exploring material, light and camera movement through shifting space and paced motion.' },
     role: { zh: '三维设计、动画制作、灯光材质与后期合成', en: '3D design, animation, lighting, materials and compositing' },
