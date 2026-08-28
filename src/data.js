@@ -177,19 +177,19 @@ const projectCatalog = [
   },
   {
     id: '10', category: 'motion', year: '2026', image: '/assets/ai-daily-vlog-cover.jpg', poster: '/assets/ai-daily-vlog-cover.jpg', video: '/assets/ai-daily-vlog.mp4', accent: '#f4d86b',
-    title: { zh: 'AI日常vlog带货', en: 'AI Daily Vlog Commerce' }, type: { zh: 'AI日常内容 / 视频', en: 'AI Daily Content / Video' },
+    title: { zh: 'AI vlog1', en: 'AI Vlog 1' }, type: { zh: 'AI日常内容 / 竖屏视频', en: 'AI Daily Content / Vertical Video' },
     description: { zh: '以日常旅行、人物记录与商品展示为线索的 AI 辅助 vlog 带货内容，结合竖屏叙事、封面设计与节奏化剪辑。', en: 'An AI-assisted daily vlog commerce piece combining travel, personal moments and product presentation through vertical storytelling, cover design and rhythmic editing.' },
     role: { zh: '内容策划、封面设计、画面剪辑与 AI 视觉辅助', en: 'Content planning, cover design, editing and AI-assisted visual production' },
   },
   {
     id: '11', category: 'motion', year: '2026', image: '/assets/ai-vlog-2-cover.jpg', poster: '/assets/ai-vlog-2-cover.jpg', video: '/assets/ai-vlog-2.mp4', accent: '#f4d86b',
-    title: { zh: 'AI vlog 2', en: 'AI Vlog 2' }, type: { zh: 'AI日常内容 / 视频', en: 'AI Daily Content / Video' },
+    title: { zh: 'AI vlog 2', en: 'AI Vlog 2' }, type: { zh: 'AI日常内容 / 竖屏视频', en: 'AI Daily Content / Vertical Video' },
     description: { zh: '以旅行记录与日常叙事为线索的竖屏 vlog 项目，使用定制封面建立轻松、连续的观看体验。', en: 'A vertical vlog project built around travel notes and everyday storytelling, with a custom cover for a light, serial viewing experience.' },
     role: { zh: '内容策划、封面设计、视频剪辑与视觉包装', en: 'Content planning, cover design, editing and visual packaging' },
   },
   {
     id: '13', category: 'motion', year: '2026', image: '/assets/ai-vlog-3-cover.jpg', poster: '/assets/ai-vlog-3-cover.jpg', video: '/assets/ai-vlog-3.mp4', accent: '#eaa6ad',
-    title: { zh: 'AI vlog 3', en: 'AI Vlog 3' }, type: { zh: 'AI日常内容 / 视频', en: 'AI Daily Content / Video' },
+    title: { zh: 'AI vlog 3', en: 'AI Vlog 3' }, type: { zh: 'AI日常内容 / 竖屏视频', en: 'AI Daily Content / Vertical Video' },
     description: { zh: '围绕轻松日常与生活方式场景展开的竖屏 AI vlog，通过人物表演、生活细节和节奏化剪辑建立自然亲切的观看体验。', en: 'A vertical AI vlog shaped around casual lifestyle moments, combining character performance, everyday detail and paced editing.' },
     role: { zh: '内容策划、封面设计、视频剪辑与 AI 视觉制作', en: 'Content planning, cover design, editing and AI-assisted visual production' },
   },

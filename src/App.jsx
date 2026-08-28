@@ -175,7 +175,7 @@ function ProjectModal({ index, lang, text, close, next, openProject, goHome }) {
   const open = index !== null;
   const externalProject = project.presentation === 'external';
   return (
-    <div className={`project-modal${project.posterLogoClass ? ` project-modal--${project.posterLogoClass}` : ''}${project.video ? ' project-modal--video' : ''}${open ? ' is-open' : ''}`} role="dialog" aria-modal="true" aria-hidden={!open} inert={!open} aria-labelledby="modal-title">
+    <div className={`project-modal${project.posterLogoClass ? ` project-modal--${project.posterLogoClass}` : ''}${project.video ? ' project-modal--video' : ''}${project.layout === 'portrait' ? ' project-modal--portrait' : ''}${open ? ' is-open' : ''}`} role="dialog" aria-modal="true" aria-hidden={!open} inert={!open} aria-labelledby="modal-title">
       <button className="modal-close" type="button" aria-label="Close project" onClick={close}>×</button>
       <button className="modal-home" type="button" aria-label="Back to homepage" title="Back to homepage" onClick={goHome}><HomeIcon /></button>
       <div className={`modal-visual${project.posterLogoClass ? ` modal-visual--${project.posterLogoClass}` : ''}`}>
