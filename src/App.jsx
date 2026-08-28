@@ -47,6 +47,15 @@ function useReveal(dependencies) {
       return undefined;
     }
 
+    // The mobile work grid should never wait for its full height to enter the
+    // observer window. It contains the complete "All" catalog and must be
+    // available as soon as the work section is reached.
+    if (isMobile) {
+      elements.forEach((element) => {
+        if (element.matches('.project-gallery')) element.classList.add('is-visible');
+      });
+    }
+
     const delays = new Map();
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
