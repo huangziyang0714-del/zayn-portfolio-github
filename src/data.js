@@ -22,9 +22,9 @@ export const copy = {
     resume: {
       strengthsLabel: '个人优势',
       strengths: [
-        { title: '跨媒介执行', body: '覆盖摄影、平面、三维、动效与后期，能够独立推进从素材到成片的完整制作。' },
-        { title: '商业化落地', body: '熟悉电商主图、产品视觉与展会内容，能与运营及跨部门团队高效协作。' },
-        { title: 'AI 工作流', body: '掌握 ComfyUI 基础工作流，将生成式工具用于叠图、提效与视觉探索。' },
+        { title: '跨媒介执行', body: '覆盖摄影、平面、三维、动效与后期，能够独立完成从前期构思、素材制作到成片交付，并根据平台和场景调整视觉方案。' },
+        { title: '商业化落地', body: '熟悉电商主图、产品视觉、详情页与展会内容，能把设计拆解为可执行的视觉资产，与运营及跨部门团队协作推进。' },
+        { title: 'AI 工作流', body: '使用 Codex 进行方案推演、代码协作与快速迭代，结合 ComfyUI、即梦、LibTV 等工具生成概念图、视频片段和延展素材，并用 AI 三维生成辅助建模草案、材质探索与镜头预演。' },
       ],
       experienceLabel: '工作经历',
       experience: [
@@ -78,9 +78,9 @@ export const copy = {
     resume: {
       strengthsLabel: 'Strengths',
       strengths: [
-        { title: 'Cross-media craft', body: 'Hands-on across photography, graphic design, 3D, motion and post-production, from raw assets to final delivery.' },
-        { title: 'Commercial delivery', body: 'Experienced in e-commerce key visuals, product imagery and exhibition content, with efficient cross-team collaboration.' },
-        { title: 'AI workflow', body: 'Builds foundational ComfyUI workflows for compositing, faster iteration and generative visual exploration.' },
+        { title: 'Cross-media craft', body: 'Works across photography, graphic design, 3D, motion and post-production, from early concepts and asset production to final delivery.' },
+        { title: 'Commercial delivery', body: 'Experienced with e-commerce key visuals, product imagery, detail pages and exhibition content, turning ideas into usable assets with operations and cross-team partners.' },
+        { title: 'AI workflow', body: 'Uses Codex for concept development, code collaboration and rapid iteration, then combines ComfyUI, Jimeng and LibTV to create concept images, video studies and visual extensions. AI 3D generation supports modeling drafts, material exploration and camera previsualization.' },
       ],
       experienceLabel: 'Experience',
       experience: [
