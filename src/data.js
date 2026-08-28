@@ -199,10 +199,16 @@ const projectCatalog = [
     description: { zh: '以香水产品为核心的商业视频案例，通过材质细节、光影变化与节奏化镜头建立具有质感的香氛视觉叙事。', en: 'A commercial perfume case study built through material detail, shifting light and paced cinematography for a refined fragrance narrative.' },
     role: { zh: '创意构思、画面设计、动态制作与后期剪辑', en: 'Creative concept, visual design, motion production and editing' },
   },
+  {
+    id: '15', category: 'motion', year: '2026', image: '/assets/body-wash-case-cover.jpg', poster: '/assets/body-wash-case-cover.jpg', video: '/assets/body-wash-case.mp4', accent: '#c78f6b',
+    title: { zh: '沐浴露案例', en: 'Body Wash Case' }, type: { zh: '视频作品 / TVC', en: 'Video / TVC' },
+    description: { zh: '以沐浴露产品为核心的商业视频案例，通过水汽、玻璃与柔和光线营造放松的沐浴场景，并以克制的镜头节奏呈现产品质感。', en: 'A commercial body wash case study using steam, glass and soft light to create a calm bathing scene, with restrained pacing that keeps the product texture in focus.' },
+    role: { zh: '创意构思、画面设计、动态制作与后期剪辑', en: 'Creative concept, visual design, motion production and editing' },
+  },
 ];
 
 // Keep the work section intentionally video-first, then graphic work.
-const projectOrder = ['06', '14', '12', '10', '11', '13', '07', '08', '09', '01', '03', '02', '04'];
+const projectOrder = ['06', '14', '15', '12', '10', '11', '13', '07', '08', '09', '01', '03', '02', '04'];
 const projectLayouts = {
   '06': 'featured',
   '12': 'standard',
@@ -210,6 +216,7 @@ const projectLayouts = {
   '11': 'portrait',
   '13': 'portrait',
   '14': 'standard',
+  '15': 'standard',
   '07': 'standard',
   '08': 'standard',
   '09': 'standard',
