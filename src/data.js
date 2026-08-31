@@ -116,6 +116,12 @@ export const copy = {
 
 const projectCatalog = [
   {
+    id: '16', category: 'motion', year: '2026', image: '/assets/wearable-device-case-cover.png', poster: '/assets/wearable-device-case-cover.png', video: '/assets/wearable-device-case.mp4', accent: '#b46cf2',
+    title: { zh: '穿戴设备案例', en: 'Wearable Device Case' }, type: { zh: 'TVC 广告 / 视频', en: 'TVC / Film' },
+    description: { zh: '围绕智能穿戴设备的产品外观、功能与生活方式场景展开，通过轻盈的色彩、流动的材质和产品特写建立兼具科技感与亲和力的广告视觉。', en: 'A wearable-device commercial built around product form, features and lifestyle scenes, combining soft color, flowing materials and close-up details for a friendly technology narrative.' },
+    role: { zh: '广告创意、画面设计、动效制作与后期剪辑', en: 'Commercial concept, visual design, motion production and editing' },
+  },
+  {
     id: '01', category: 'graphic', year: '2026', image: '/assets/pack-trace-card.svg', modalImage: '/assets/pack-trace-modal.svg', logo: '/assets/tuoji-symbol-reversed.svg', posterLogo: '/assets/tuoji-symbol-reversed.svg', posterLogoClass: 'tuoji', accent: '#dfff00', presentation: 'site', link: '/projects/tuoji/index.html?v=embedded-v2#hero',
     title: { zh: '拓迹', en: 'Pack Trace' }, type: { zh: '品牌视觉 / 网站', en: 'Brand / Web' },
     description: { zh: '拓迹品牌宣传册网站，以路径、版式与材质建立一套可浏览的品牌叙事，将平面系统延展为具有节奏的线上体验。', en: 'A brand brochure site for Pack Trace, extending a graphic system into a paced online narrative through paths, typography and material cues.' },
@@ -208,8 +214,9 @@ const projectCatalog = [
 ];
 
 // Keep the work section intentionally video-first, then graphic work.
-const projectOrder = ['06', '14', '15', '12', '10', '11', '13', '07', '08', '09', '01', '03', '02', '04'];
+const projectOrder = ['16', '06', '14', '15', '12', '10', '11', '13', '07', '08', '09', '01', '03', '02', '04'];
 const projectLayouts = {
+  '16': 'featured',
   '06': 'featured',
   '12': 'standard',
   '10': 'portrait',
