@@ -28,10 +28,10 @@ export const copy = {
       ],
       experienceLabel: '工作经历',
       experience: [
-        { period: '2025.10-2026.04', company: '上海琅见网络科技有限公司', role: '视觉设计师', body: '负责摄影、剪辑、产品包装建模，以及移动端与 PC 端主视觉制作。' },
-        { period: '2025.06-2025.09', company: '苏州晟熠佳技术有限公司', role: '电商美工', body: '完成样品拍摄、产品与场景建模、渲染后期及商品详情视觉系统。' },
-        { period: '2024.09-2025.01', company: '深圳市思迅软件股份有限公司', role: '设计师助理', body: '参与多通道渲染合成、节日海报与短视频制作，并支持展会及跨部门项目对接。' },
-        { period: '2022.06-2024.07', company: '美瓷壹号（上海）新材料有限公司', role: '设计师助理', body: '负责产品与场景建模、灯光材质、三维动画及线上线下展厅视觉落地。' },
+        { period: '2024.09-2025.01', company: '深圳市思迅软件股份有限公司', role: '设计师助理', body: '参与多通道渲染合成、节日海报与短视频制作；支持展会物料及跨部门项目对接，按节点推进设计交付。' },
+        { period: '2025.06-2025.09', company: '苏州晟熠佳技术有限公司', role: '电商美工', body: '围绕商品详情与电商传播完成样品拍摄、产品及场景建模、渲染后期；按页面结构组织产品卖点与视觉层级。' },
+        { period: '2025.10-2026.04', company: '上海琅见网络科技有限公司', role: '视觉设计师', body: '负责样品与产品摄影、视频剪辑和产品包装建模；完成移动端及 PC 端主视觉制作，并配合项目需求整理可复用的视觉素材。' },
+        { period: '2026.05-2026.09', company: '美瓷壹号（上海）新材料有限公司', role: '品牌视觉设计师', body: '负责产品与场景建模、灯光材质调节、AI 辅助创作；参与线上内容与线下展厅视觉制作，保持品牌呈现一致。' },
       ],
       educationLabel: '教育经历',
       education: {
@@ -84,10 +84,10 @@ export const copy = {
       ],
       experienceLabel: 'Experience',
       experience: [
-        { period: '2025.10-2026.04', company: 'Shanghai Langjian Network Technology', role: 'Visual Designer', body: 'Photography, editing, product packaging models, and mobile and desktop campaign visuals.' },
-        { period: '2025.06-2025.09', company: 'Suzhou Shengxijia Technology', role: 'E-commerce Designer', body: 'Sample photography, product and scene modeling, rendering, retouching and product-page visual systems.' },
-        { period: '2024.09-2025.01', company: 'Shenzhen Sixun Software', role: 'Design Assistant', body: 'Multi-pass compositing, seasonal posters and short videos, plus exhibition and cross-team project support.' },
-        { period: '2022.06-2024.07', company: 'Meici Yihao (Shanghai) New Materials', role: 'Design Assistant', body: 'Product and scene modeling, lighting, materials, 3D animation and online and offline showroom delivery.' },
+        { period: '2024.09-2025.01', company: 'Shenzhen Sixun Software', role: 'Design Assistant', body: 'Supported multi-pass compositing, seasonal posters and short videos; coordinated exhibition materials and cross-team projects to deliver design work on schedule.' },
+        { period: '2025.06-2025.09', company: 'Suzhou Shengxijia Technology', role: 'E-commerce Designer', body: 'Produced sample photography, product and scene modeling, rendering and retouching for product-detail and e-commerce campaigns, organizing selling points by page structure.' },
+        { period: '2025.10-2026.04', company: 'Shanghai Langjian Network Technology', role: 'Visual Designer', body: 'Handled sample and product photography, video editing and packaging modeling; created mobile and desktop key visuals and reusable visual assets.' },
+        { period: '2026.05-2026.09', company: 'Meici Yihao (Shanghai) New Materials', role: 'Brand Visual Designer', body: 'Developed product and scene models, tuned lighting and materials, and supported AI-assisted creation across online content and showroom visuals while maintaining brand consistency.' },
       ],
       educationLabel: 'Education',
       education: {

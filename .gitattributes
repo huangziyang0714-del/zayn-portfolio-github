@@ -1,0 +1,18 @@
+# Keep source files stable across GitHub Desktop, Windows, macOS and Linux.
+* text=auto eol=lf
+
+# Assets must never be line-ending normalized.
+*.png -text -diff -merge -eol
+*.jpg -text -diff -merge -eol
+*.jpeg -text -diff -merge -eol
+*.webp -text -diff -merge -eol
+*.gif -text -diff -merge -eol
+*.svg text eol=lf
+*.mp4 -text -diff -merge -eol
+*.webm -text -diff -merge -eol
+*.mov -text -diff -merge -eol
+*.woff -text -diff -merge -eol
+*.woff2 -text -diff -merge -eol
+*.ttf -text -diff -merge -eol
+*.otf -text -diff -merge -eol
+*.pdf -text -diff -merge -eol
